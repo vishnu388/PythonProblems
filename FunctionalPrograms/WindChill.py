@@ -17,9 +17,10 @@ def WindCalculation(Temperature, Speed):
 
 # input values
 Temperature= int(input('enter the value of temperature in Fahrenheit less then 50: '))
+Speed= int(input('enter wind speed in miles per hour from 3 to 120: '))
 if Temperature>50:
     print('Please enter value less then 50')
-Speed= int(input('enter wind speed in miles per hour from 3 to 120: '))
+#Speed= int(input('enter wind speed in miles per hour from 3 to 120: '))
 if Speed<3 or Speed>120:
     print('enter value from 3 to 120')
-WindCalculation(Temperature, Speed)
+WindCalculation(Temperature, Speed
